@@ -7,6 +7,7 @@
   "main": "src/index.js",
   "scripts": {
     "deploy": "now --public -T pageshot",
+    "build": "npm i",
     "alias": "now -T pageshot alias",
     "start": "node ."
   },
